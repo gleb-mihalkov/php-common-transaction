@@ -1,0 +1,12 @@
+{
+    "name": "gm/php-patterns-transaction",
+    "description": "Интерфейс, объявляющий паттерн транзакции.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Common\\": "src/"
+        }
+    }
+}
