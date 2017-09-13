@@ -1,5 +1,5 @@
 {
-    "name": "gm/php-patterns-transaction",
+    "name": "gm/php-common-transaction",
     "description": "Интерфейс, объявляющий паттерн транзакции.",
     "type": "library",
     "minimum-stability": "stable",
