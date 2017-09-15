@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Trait Common\TTransaction</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-Common.html">
+						Common					</a>
+
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Common.ITransaction.html">ITransaction</a></li>
+			</ul>
+
+			<h3>Traits</h3>
+			<ul>
+				<li class="active"><a href="class-Common.TTransaction.html">TTransaction</a></li>
+			</ul>
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-Common.TransactionException.html">TransactionException</a></li>
+				<li><a href="class-Common.TransactionFinishedException.html">TransactionFinishedException</a></li>
+				<li><a href="class-Common.TransactionNotStartedException.html">TransactionNotStartedException</a></li>
+				<li><a href="class-Common.TransactionStartedException.html">TransactionStartedException</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Common.html" title="Summary of Common"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Trait TTransaction</h1>
+
+
+	<div class="description">
+	<p>Типаж, обеспечивающий правильную очередность выполнения методов транзакции.</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Common.html">Common</a><br>
+		
+
+			<b>Located at</b> <a href="source-class-Common.TTransaction.html#4-155" title="Go to source code">TTransaction.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="isStarted" id="_isStarted">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isStarted">#</a>
+		<code><a href="source-class-Common.TTransaction.html#30-38" title="Go to source code">isStarted</a>( )</code>
+
+		<div class="description short">
+			<p>Показывает, запущена ли транзакция.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Показывает, запущена ли транзакция.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>Да или нет.
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isRollbacked" id="_isRollbacked">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isRollbacked">#</a>
+		<code><a href="source-class-Common.TTransaction.html#40-48" title="Go to source code">isRollbacked</a>( )</code>
+
+		<div class="description short">
+			<p>Показывает, отменена ли транзакция.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Показывает, отменена ли транзакция.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>Да или нет.
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isCommitted" id="_isCommitted">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isCommitted">#</a>
+		<code><a href="source-class-Common.TTransaction.html#55-58" title="Go to source code">isCommitted</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isFinished" id="_isFinished">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isFinished">#</a>
+		<code><a href="source-class-Common.TTransaction.html#60-68" title="Go to source code">isFinished</a>( )</code>
+
+		<div class="description short">
+			<p>Показывает, завершена ли транзакция.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Показывает, завершена ли транзакция.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>Да или нет.
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="start" id="_start">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_start">#</a>
+		<code><a href="source-class-Common.TTransaction.html#72-91" title="Go to source code">start</a>( )</code>
+
+		<div class="description short">
+			<p>Запускает транзакцию.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Запускает транзакцию.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_start" id="__start">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__start">#</a>
+		<code><a href="source-class-Common.TTransaction.html#93-98" title="Go to source code">_start</a>( )</code>
+
+		<div class="description short">
+			<p>Запускает транзакцию. Виртуальный метод.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Запускает транзакцию. Виртуальный метод.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rollback" id="_rollback">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rollback">#</a>
+		<code><a href="source-class-Common.TTransaction.html#100-119" title="Go to source code">rollback</a>( )</code>
+
+		<div class="description short">
+			<p>Отменяет транзакцию.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Отменяет транзакцию.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_rollback" id="__rollback">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__rollback">#</a>
+		<code><a href="source-class-Common.TTransaction.html#121-126" title="Go to source code">_rollback</a>( )</code>
+
+		<div class="description short">
+			<p>Отменяет транзакцию. Виртуальный метод.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Отменяет транзакцию. Виртуальный метод.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="commit" id="_commit">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_commit">#</a>
+		<code><a href="source-class-Common.TTransaction.html#128-147" title="Go to source code">commit</a>( )</code>
+
+		<div class="description short">
+			<p>Подтверждает транзакцию.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Подтверждает транзакцию.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_commit" id="__commit">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__commit">#</a>
+		<code><a href="source-class-Common.TTransaction.html#149-154" title="Go to source code">_commit</a>( )</code>
+
+		<div class="description short">
+			<p>Подтверждает транзакцию. Виртуальный метод.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Подтверждает транзакцию. Виртуальный метод.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
